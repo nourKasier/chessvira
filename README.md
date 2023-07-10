@@ -1,9 +1,5 @@
-<p align="center">
-<img src="https://user-images.githubusercontent.com/46269541/230351628-f3eb6682-3799-42d9-8e7a-9ab918906f2e.png" alt="Laravel API Boilerplate">
-</p>
-<p align="center">
-  A <a href="https://laravel.com" target="_blank">Laravel</a> project with a Domain-Driven Design (DDD) structure, basic configuration, and commonly used packages pre-installed  and configured, to help you start building your next big application.
-</p>
+# chessvira
+play chess online.
 
 # Requirements
 - PHP ^8.1
@@ -292,7 +288,3 @@ environment. The normal seeders will stay in `DatabaseSeeder.php`.
 
 ## Shared Directory
 The `src/shared/` directory is used for helper, traits, enums .... that are going to be used by the application and the domain.
-
-# Feedback
-I will be happy to hear your feedback! If you have any recommendation or suggestion, please send an e-mail
-to [Mail](mailto:abdulrahmanwazzan.pro@gmail.com).
