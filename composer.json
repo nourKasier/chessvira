@@ -6,11 +6,14 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
+        "beyondcode/laravel-websockets": "^1.14",
         "guzzlehttp/guzzle": "^7.5",
         "laravel/framework": "^10.4",
         "laravel/passport": "^11.8",
         "laravel/tinker": "^2.8",
+        "laravel/ui": "^4.2",
         "lorisleiva/laravel-actions": "^2.5",
+        "pusher/pusher-php-server": "^7.2",
         "spatie/laravel-data": "^3.2",
         "spatie/laravel-query-builder": "^5.2"
     },
@@ -26,6 +29,7 @@
         "pestphp/pest": "^2.2",
         "pestphp/pest-plugin-laravel": "^2.0",
         "phpro/grumphp": "^1.15",
+        "phpunit/phpunit": "^10.3",
         "roave/security-advisories": "dev-latest",
         "spatie/laravel-ignition": "^2.0"
     },
@@ -35,7 +39,8 @@
             "Domain\\": "src/domain/",
             "Shared\\": "src/shared/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "LaravelFrontendPresets\\BlackPreset\\": "presets/black/src"
         },
         "files": [
             "src/shared/Helpers/global.php"
@@ -43,7 +48,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "LaravelFrontendPresets\\BlackPreset\\": "presets/black/src"
         }
     },
     "scripts": {

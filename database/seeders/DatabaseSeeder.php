@@ -24,9 +24,12 @@ class DatabaseSeeder extends Seeder
         // production seeders.
         $this->call([
             UserSeeder::class,
+            ChessMatchSeeder::class,
+            // MessageSeeder::class,
+            MoveSeeder::class,
+            LobbySeeder::class,
+            ContactsTableSeeder::class,
         ]);
-
-
 
         /*
         |--------------------------------------------------------------------------

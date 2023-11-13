@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\ServiceProvider;
 use Shared\Enums\MorphEnum;
 
@@ -38,5 +39,11 @@ class AppServiceProvider extends ServiceProvider
             $this->app->register(\Laravel\Telescope\TelescopeServiceProvider::class);
             $this->app->register(TelescopeServiceProvider::class);
         }
+        
+        Response::macro('typescript', function ($content) {
+            return Response::make($content, 200, [
+                'Content-Type' => 'application/typescript',
+            ]);
+        });
     }
 }
