@@ -5,27 +5,6 @@ play chess online.
 - PHP ^8.1
 - Composer ^2.2
 
-# Installation
-```bash
-composer create-project abd-wazzan/laravel-api-boilerplate api-app
-```
-Install dependencies
-```bash
-cd api-app
-composer install
-```
-Setup .env file
-```bash
-cp .env.example .env
-```
-Generate the application key
-```bash
-php artisan key:generate 
-```
-Run Locally
-```bash
-php artisan serve
-```
 # Installed Packages
 
 General:
