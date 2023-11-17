@@ -1,5 +1,13 @@
-# chessvira
+# Chessvira
 play chess online.
+
+#Features
+- Developed a captivating website that revolutionizes the online chess gaming experience.
+- Leveraged the power of Laravel WebSockets, a remarkable package, to establish seamless real-time communication between players, enabling them to engage in thrilling gameplay with enhanced interactivity.
+- Implemented a dynamic lobby where players can wait and connect with opponents in real time, enhancing the overall user experience.
+- Incorporated a well-designed contact form, allowing users to easily reach out for support or inquiries.
+- Created a visually appealing table to display contact messages, improving the overall visual aesthetics and functionality of the website.
+Utilized "Black Dashboard" theme to create a modern and intuitive interface.
 
 # Requirements
 - PHP ^8.1
