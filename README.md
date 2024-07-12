@@ -1,6 +1,6 @@
 # Chessvira
 - play chess online.
-- The game video available on YouTube (on my channel): https://www.youtube.com/watch?si=xRfppIk_UvYGNVol&v=dsvb6EnvYHY
+- The game video available on my YouTube channel, this is the link to the video: https://www.youtube.com/watch?si=xRfppIk_UvYGNVol&v=dsvb6EnvYHY
 
 # Features
 - Developed a captivating website that revolutionizes the online chess gaming experience.
